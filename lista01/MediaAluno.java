@@ -4,6 +4,8 @@ Conceitos: Leitura de dados (Scanner), variáveis do tipo double, operadores ari
 Exemplo de Entrada: 7.5, 8.0, 6.5 Saída esperada: Média: 7.33
  */
 
+package lista01;
+
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
