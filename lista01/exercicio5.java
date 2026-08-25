@@ -1,0 +1,30 @@
+/*  Exercício 5: Conversor de Tempo (Segundos para Horas, Minutos e 
+Segundos)
+Enunciado: Escreva um programa que leia um valor inteiro representando
+ um total de segundos e o decomponha em horas, minutos e segundos 
+ restantes.
+Conceitos: Divisão inteira (/) e operador de resto da divisão (%).
+Exemplo de Entrada: 3665 Saída esperada: 1 hora(s), 1 minuto(s) e 5 
+segundo(s)
+ */
+package lista01;
+
+import java.util.Scanner;
+import java.text.DecimalFormat;
+
+public class exercicio5 {
+    public static void main(String[] args) {
+        Scanner ler = new Scanner(System.in);
+        DecimalFormat decimal = new DecimalFormat("0");
+
+        System.out.print("Digite o total de segundos: ");
+        int totalSegundos = ler.nextInt();
+
+        int horas  = totalSegundos / 3600;
+        int minutos = (totalSegundos % 3600) / 60;
+        int segundos = totalSegundos % 60;
+
+        System.out.println(horas + " hora(s), " + minutos + " minuto(s) e " + segundos + " segundo(s)");
+        ler.close();
+    }
+}
