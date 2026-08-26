@@ -4,7 +4,13 @@
     // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "exercicio2",
+            "request": "launch",
+            "mainClass": "lista02.exercicio2",
+            "projectName": "Exerciciospob_d57f06b1"
+        },
         {
             "type": "java",
             "name": "Current File",
