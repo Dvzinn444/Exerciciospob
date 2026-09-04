@@ -15,19 +15,23 @@ public class exercicio {
 
         int pares[] = new int[10];
         int impares[] = new int[10];
+        int quantidadePares = 0;
+        int quantidadeImpares = 0;
 
         for(int i=0; i < 10; i++){
             if(vet[i]%2==0){
-                pares[i] = vet[i];
+                pares[quantidadePares] = vet[i];
+                quantidadePares++;
             } else {
-                impares[i] = vet[i];
+                impares[quantidadeImpares] = vet[i];
+                quantidadeImpares++;
             }
         }
 
-        for(int i=0; i < pares.length; i++){
+        for(int i=0; i < quantidadePares; i++){
             System.out.println("Números pares: " + pares[i]);
         }
-        for(int i=0; i < impares.length; i++){
+        for(int i=0; i < quantidadeImpares; i++){
             System.out.println("Números ímpares: " + impares[i]);
         }
         ler.close();
