@@ -2,7 +2,7 @@ package lista05;
 
 import java.util.Scanner;
 
-public class exercicio5{
+public class exercicio1{
     public static void main(String[]args){
         Scanner ler = new Scanner(System.in);
         int[][] mat = new int[3][3];
