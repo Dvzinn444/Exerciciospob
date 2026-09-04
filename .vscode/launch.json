@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "exercicio",
+            "request": "launch",
+            "mainClass": "lista04.exercicio",
+            "projectName": "Exerciciospob_d57f06b1"
+        },
+        {
+            "type": "java",
             "name": "exercicio4",
             "request": "launch",
             "mainClass": "lista04.exercicio4",
