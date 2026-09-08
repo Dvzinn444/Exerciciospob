@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "controleFuncionario",
+            "request": "launch",
+            "mainClass": "lista06.dominio.controle.controleFuncionario",
+            "projectName": "Exerciciospob_d57f06b1"
+        },
+        {
+            "type": "java",
             "name": "controleContaBancaria",
             "request": "launch",
             "mainClass": "lista06.dominio.controle.controleContaBancaria",
