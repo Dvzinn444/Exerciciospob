@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "controleLivro",
+            "request": "launch",
+            "mainClass": "lista06.dominio.controle.controleLivro",
+            "projectName": "Exerciciospob_d57f06b1"
+        },
+        {
+            "type": "java",
             "name": "exercicio5",
             "request": "launch",
             "mainClass": "exercicio5",
