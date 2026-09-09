@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "controleProduto",
+            "request": "launch",
+            "mainClass": "lista07.dominio.controle.controleProduto",
+            "projectName": "Exerciciospob_d57f06b1"
+        },
+        {
+            "type": "java",
             "name": "controleAluno",
             "request": "launch",
             "mainClass": "lista06.dominio.controle.controleAluno",
