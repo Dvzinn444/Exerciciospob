@@ -5,16 +5,16 @@ public class Produto {
     private double preco;
     private int quantidadeEstoque;
 
-    public Produto(String nome,double preco,int qtd){
+    public Produto(String nome, double preco) {
         this.nome = nome;
         this.preco = preco;
-        this.quantidadeEstoque = qtd;
+        this.quantidadeEstoque = 0;
     }
 
-    public void Produto1(String nome,double preco,int qtd){
+    public Produto(String nome, double preco, int quantidadeEstoque) {
         this.nome = nome;
         this.preco = preco;
-        this.quantidadeEstoque = qtd;
+        this.quantidadeEstoque = quantidadeEstoque;
     }
 
     public void setNome(String nome){
@@ -37,7 +37,7 @@ public class Produto {
         return preco;
     }
 
-    public void setQtd(int qtd){
+    public void setQuantidadeEstoque(int qtd){
         if(qtd >= 0){
             this.quantidadeEstoque = qtd;
         }else{
@@ -45,11 +45,11 @@ public class Produto {
         }
     }
 
-    public int getQtd(){
+    public int getQuantidadeEstoque(){
         return quantidadeEstoque;
     }
 
-    public double calcularValorTotalEmEstoque(double preco, int qtd){
+    public double calcularValorTotalEmEstoque(){
         return preco * quantidadeEstoque;
     }
 }
