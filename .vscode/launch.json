@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "controleRetangulo",
+            "request": "launch",
+            "mainClass": "lista07.dominio.controle.controleRetangulo",
+            "projectName": "Exerciciospob_d57f06b1"
+        },
+        {
+            "type": "java",
             "name": "controleConta",
             "request": "launch",
             "mainClass": "lista07.dominio.controle.controleConta",
