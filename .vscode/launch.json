@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ControleNotificacao",
+            "request": "launch",
+            "mainClass": "lista08.exercicio03.controle.ControleNotificacao",
+            "projectName": "Exerciciospob_d57f06b1"
+        },
+        {
+            "type": "java",
             "name": "ControleFuncionario",
             "request": "launch",
             "mainClass": "lista08.exercicio02.dominio.controle.ControleFuncionario",
