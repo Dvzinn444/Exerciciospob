@@ -1,5 +1,14 @@
-package lista08.exericicio04.dominio;
+package lista08.exercicio04.dominio;
 
-public class Quadrado {
-    
+public class Quadrado extends FiguraGeometrica {
+    private double lado;
+
+    public Quadrado(double lado) {
+        this.lado = lado;
+    }
+
+    @Override
+    public double calcularArea() {
+        return lado * lado;
+    }
 }
