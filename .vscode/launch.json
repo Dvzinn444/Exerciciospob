@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ControleForma",
+            "request": "launch",
+            "mainClass": "lista09.exercicio02.controle.ControleForma",
+            "projectName": "Exerciciospob_d57f06b1"
+        },
+        {
+            "type": "java",
             "name": "ControlePagamento",
             "request": "launch",
             "mainClass": "lista09.exercicio01.controle.ControlePagamento",
