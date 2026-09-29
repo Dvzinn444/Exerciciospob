@@ -1,0 +1,7 @@
+package lista10.exercicio05.dominio;
+
+public class ProcessamentoDadosException extends Exception {
+    public ProcessamentoDadosException(String mensagem, Throwable causa) {
+        super(mensagem, causa);
+    }
+}
