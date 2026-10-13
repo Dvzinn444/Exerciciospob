@@ -10,20 +10,26 @@ package lista11;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 
 public class exercicio03 {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
         Map<String, Integer> freqPalavras = new HashMap<>();
-        String texto = "Exemplo de texto para contar a frequência de palavras. "
-                     + "Este texto contém palavras repetidas, como a palavra 'texto' e a palavra 'palavras'.";        
-        String[] palavras = texto.toLowerCase().split("\\s+");
-        
-        for (String palavra : palavras) {
-            freqPalavras.put(palavra, freqPalavras.getOrDefault(palavra, 0) + 1);
+
+        System.out.print("Digite um texto: ");
+        String texto = scanner.nextLine();
+        if (!texto.isBlank()) {
+            String[] palavras = texto.toLowerCase().trim().split("\\s+");
+            for (String palavra : palavras) {
+                freqPalavras.put(palavra, freqPalavras.getOrDefault(palavra, 0) + 1);
+            }
         }
-        
+
         for (Map.Entry<String, Integer> entry : freqPalavras.entrySet()) {
             System.out.println("Palavra: " + entry.getKey() + ", Frequência: " + entry.getValue());
         }
+
+        scanner.close();
     }
 }
